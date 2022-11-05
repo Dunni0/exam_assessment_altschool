@@ -8,8 +8,8 @@ export default function CounterCustomHook() {
 
   useEffect(() => {
     counterData.setVal(val);
-  }, [val,counterData]);
-
+  },[val]);
+ 
   const handleKeyUp = (e) => {
     try {
       const input = e.target.value;
@@ -26,6 +26,7 @@ export default function CounterCustomHook() {
     } catch (e) {
       console.log(e);
     }
+    console.log(count)
   };
 
   return (
@@ -37,9 +38,9 @@ export default function CounterCustomHook() {
       <div className="btns">
         <button onClick={counterData.setInc}> + </button>
         <button onClick={counterData.reset}>
-          <span class="material-symbols-sharp">refresh</span>
+          <span className="material-symbols-sharp">refresh</span>
         </button>
-        <button onClick={counterData.setDec}> - </button>
+        <button onClick={counterData.setDec} >  - </button>
       </div>
     </div>
   );

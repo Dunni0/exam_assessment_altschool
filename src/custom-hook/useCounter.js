@@ -5,7 +5,7 @@ const useCounter = function(actualState = 0){
     
     const increment = () => setState((prevCount) => prevCount + 1)
     const decrement = () => setState((prevCount) => prevCount - 1)
-    const reset = () =>  setState( () => setState(0) )
+    const reset = () =>  setState(() => setState(0))
     const setValue = (value) => setState(value)
 
     const bind ={
