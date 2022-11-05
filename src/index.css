@@ -39,9 +39,9 @@ nav{
 .counter_reducer{
   padding: 2rem;
   width: 600px;
-  margin: 7rem auto;
+  margin: 5rem auto;
   display: flex; 
-  gap: 8rem;
+  gap: 6rem;
   flex-direction: column;
   justify-content: center;
   align-content: center;
