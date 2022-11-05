@@ -135,6 +135,14 @@ nav{
   gap: 2rem;
 }
 
+form > input{
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+
 /* =============================== Error_Comp ========================= */
 .error_boundary{
   width: 600px;
@@ -146,10 +154,3 @@ nav{
   gap: 2rem;
 }
 
-form > input{
-  width: 200px;
-  height: 30px;
-  outline: none;
-  border: none;
-  box-shadow: 0 4px 8px 0 rgba(0, 0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
-}
