@@ -33,7 +33,7 @@ export default function CounterCustomHook() {
     <div className="counter_custom">
       <div className="counter"> {count}</div>
       <form action="" onSubmit={(e) => e.preventDefault()}>
-        <input onKeyUp={handleKeyUp} type="text" />
+        <input placeholder="Enter a number" onKeyUp={handleKeyUp} type="text" />
       </form>
       <div className="btns">
         <button onClick={counterData.setInc}> + </button>

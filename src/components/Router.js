@@ -17,7 +17,6 @@ function Router(){
               <Route path="*" element={<Error />} />
           </Route>
         </Routes>
-
       </>
     );
 }
