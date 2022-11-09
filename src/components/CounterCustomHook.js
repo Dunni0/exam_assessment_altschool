@@ -16,6 +16,7 @@ export default function CounterCustomHook() {
       setInputVal(input);
 
       if (e.key === "Enter") {
+        e.target.value = ""
         const number = parseInt(inputVal);
         if (!isNaN(number)) {
           setValue(number);
